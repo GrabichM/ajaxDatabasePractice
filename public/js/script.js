@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function(){
       .then(response => response.text())
       .then(data => {
         console.log(data); // Verarbeitung der Antwort
-        console.log("Daten erfolgreich weitergeleitet")
       })
       .catch(error => {
         console.error('Fehler:', error);
